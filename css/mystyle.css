@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(117, 60, 60);
+    text-align: center;
+}
+h1 {
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(238,239,203)
+}
+
+li {
+    font-weight: bold;
+    color: rgb(238, 239, 203);
+   
+}
+.content {
+    display: inline-block;
+    text-align: left;
+}
+a {
+    color: rgb(250, 254, 189);
+}
+.tableau-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tableau-container iframe {
+    width: 800px;
+    height: 600px;
+}
+
+nav{
+    background-color: rgb(250, 254, 189);
+    padding: 10xp;
+    overflow:hidden;
+
+}
+
+nav a{
+    color:rgb(180, 132, 11);
+    padding: 8px;
+    text-decoration: none;
+    font: size 60px;
+    font-weight: bold;
+    float:left;
+    
+}
+
+nav a:hover{
+    background-color:rgb(44, 69, 59)
+}

@@ -1,0 +1,24 @@
+body {
+    background-color: #ecf9a2;
+}
+.game-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#game-area {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 0 auto;
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+#box {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    cursor: pointer;
+}
